@@ -326,4 +326,9 @@ CREATE EXTERNAL TABLE IF NOT EXISTS alb_logs (
 
 ![visualization 4](https://github.com/DURGESH99P/Application-load-balancer-Datapipeline-----Data-analysis-Project-/assets/94096617/e88f3ef2-6e4c-42ca-8805-0e594a20fd4c)
 
+<body>
+    <p style ="font-weight:400;font-size:18.5px"><b>✒️Tip: Explore this projects and be more creative with the Visualizations.
+</b></p>
+  </body>
+
 ---
