@@ -21,8 +21,7 @@ By leveraging the power of Athena, Quicksight, and S3 integration, this reposito
 
 # 1️⃣ Create two instances having Apache webservers running on it
 ###  For more info on creating instances with apache webservers visit:
-### https://github.com/hrishikesh26/Application-load-balancer-Datapipeline-and-Data-analysis-Project-/blob/652209bdc1db15ac3f022432ff387528b5e89f5f/Supportive%20document/Apache%20website%20(1).pdf
-
+### [Click here](https://github.com/hrishikesh26/Application-load-balancer-Datapipeline-and-Data-analysis-Project-/blob/652209bdc1db15ac3f022432ff387528b5e89f5f/Supportive%20document/Apache%20website%20(1).pdf)
 ---
 
 # 2️⃣ Create two S3 buckets for the project
