@@ -46,12 +46,12 @@ By leveraging the power of Athena, Quicksight, and S3 integration, this reposito
 ### Point to be noted in the policy - 
 - `"AWS": "arn:aws:iam::718504428378:root"` = `"AWS": "arn:aws:iam::**elb-account-id**:**root**".`
 
-Here, elb account id is mentioned according to the specific region where ec2 instance and alb are hosted, this **eld-account-id** can be found from this [document](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html). **Root** specifies that you are using root account
+Here, **elb-account-id** is mentioned according to the specific region where ec2 instance and alb are hosted, this **eld-account-id** can be found from this [document](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html). **Root** specifies that you are using root account
         
-- `"Resource": "arn:aws:s3:::webserveralblog/prefix/AWSLogs/436117849909/*"` = `"Resource": "arn:aws:s3:::bucket-name/prefix/AWSLogs/your-aws-account-id/*"`
+- `"Resource": "arn:aws:s3:::webserveralblog/prefix/AWSLogs/436117849909/*"` = `"Resource": "arn:aws:s3:::**bucket-name**/prefix/AWSLogs/**your-aws-account-id**/*"`
 
 
- Here, bucket name is specified as "webserveralblog" with the objects specified in it along with the account id.  
+ Here, bucket name is specified as **webserveralblog** with the objects specified in it along with the **account id**.  Please mention you own **bucket-name** and **account-id** in this particular arn.
 
 ```python
 {
